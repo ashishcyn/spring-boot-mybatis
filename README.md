@@ -6,6 +6,7 @@ SpringBoot MyBatis Project
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [API](#api)
 
 
 
@@ -32,10 +33,26 @@ Project is created with:
 * Password: refer application.properties
 * Sample Data: refer data.sql
 
+### Local run 
+* Build the project using maven command: `mvn clean install`
+* Run the spring-boot-mybatis project locally: `mvn spring-boot:run` 
+* Access the application at: http://localhost:8080/
+
+
+### API
+* Get All Users: http://localhost:8080/rest/user/all
 
 
 
 <!-- 
 Reference:
+* Run: `mvn spring-boot:run`
+* Test: `mvn test`
+* Swagger: http://localhost:8080/swagger-ui.html
+* Actuator: http://localhost:8080/actuator
+* Actuator Health: http://localhost:8080/actuator/health
+* Actuator Info: http://localhost:8080/actuator/info
+* 
+
 
 -->
