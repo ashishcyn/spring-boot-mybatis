@@ -1,6 +1,6 @@
 package com.cyn.mybatis.springbootmybatis.model;
 
-public class User {
+public class Users {
     private Integer id;
     private String name;
     private String salary;

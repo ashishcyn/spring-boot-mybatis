@@ -30,6 +30,7 @@ Project is created with:
 * JDBC URL: refer application.properties
 * User Name: refer application.properties 
 * Password: refer application.properties
+* Sample Data: refer data.sql
 
 
 
