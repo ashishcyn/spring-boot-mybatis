@@ -23,4 +23,13 @@ public class UserResource {
         return userMapper.findAll();
     }
 
+    @GetMapping("/insert")
+    public List<Users> insert() {
+        Users users = new Users();
+        users.setName("Tom");
+        users.setSalary("10000");
+        userMapper.insert(users);
+        return userMapper.findAll();
+    }
+
 }
