@@ -42,10 +42,13 @@ Project is created with:
 ### API
 * Get All Users: http://localhost:8080/rest/user/all
 * Insert User: http://localhost:8080/rest/user/insert
+* Update User: http://localhost:8080/rest/user/updateUser
+* Delete User: http://localhost:8080/rest/user/deleteUser
 
 
 
 <!-- 
 Reference:
 https://www.youtube.com/watch?v=ZP8Um12Z_mk
+https://www.youtube.com/watch?v=E0cRlFNpiL0
 -->

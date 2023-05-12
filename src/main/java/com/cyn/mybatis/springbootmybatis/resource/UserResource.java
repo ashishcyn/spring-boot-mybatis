@@ -32,4 +32,22 @@ public class UserResource {
         return userMapper.findAll();
     }
 
+    @GetMapping("/updateUser")
+    public List<Users> update() {
+        Users users = new Users();
+        users.setName("Tom");
+        users.setSalary("20000");
+        userMapper.update(users);
+        return userMapper.findAll();
+    }
+
+    @GetMapping("/deleteUser")
+    public List<Users> delete() {
+        Users users = new Users();
+        users.setName("Tom");
+        userMapper.delete(users);
+        return userMapper.findAll();
+    }
+
+
 }
