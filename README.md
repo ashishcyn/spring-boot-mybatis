@@ -41,18 +41,11 @@ Project is created with:
 
 ### API
 * Get All Users: http://localhost:8080/rest/user/all
+* Insert User: http://localhost:8080/rest/user/insert
 
 
 
 <!-- 
 Reference:
-* Run: `mvn spring-boot:run`
-* Test: `mvn test`
-* Swagger: http://localhost:8080/swagger-ui.html
-* Actuator: http://localhost:8080/actuator
-* Actuator Health: http://localhost:8080/actuator/health
-* Actuator Info: http://localhost:8080/actuator/info
-* 
-
-
+https://www.youtube.com/watch?v=ZP8Um12Z_mk
 -->
